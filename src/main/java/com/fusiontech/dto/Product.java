@@ -19,10 +19,6 @@ public class Product {
 	@Id
 	@Column
 	private int id;
-	@Override
-	public String toString() {
-		return "Product [id=" + id + ", name=" + name + ", status=" + status + ", pd=" + pd + "]";
-	}
 
 	@Column
 	private String name;
@@ -32,10 +28,6 @@ public class Product {
 	@JoinColumn(name = "product_id", referencedColumnName = "id")
 	@OneToMany(targetEntity = ProductDetails.class, cascade = CascadeType.ALL)
 	private List<ProductDetails> pd;
-
-	public Product() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public int getId() {
 		return id;
@@ -51,14 +43,6 @@ public class Product {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public Product(int id, String name, String status, List<ProductDetails> pd) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.status = status;
-		this.pd = pd;
 	}
 
 	public String getStatus() {
@@ -77,11 +61,10 @@ public class Product {
 		this.pd = pd;
 	}
 
-	public ProductDetails[] getDetails() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-		
+	
+	
+	
 }
+		
+
 	

@@ -41,10 +41,16 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>3.8-beta4</version>
-</dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.3</version> <!-- Use the latest version available -->
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.3</version> <!-- Use the latest version available -->
+		</dependency>
 	</dependencies>
 
 	<build>
