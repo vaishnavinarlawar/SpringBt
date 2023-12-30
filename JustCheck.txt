@@ -1,2 +1,13 @@
 hi vaishnavi here
 i am java developer
+git add .
+git status
+git commit -m"if any changes made write here message "
+git pull
+
+
+i am java developer
+git add .
+git status
+git commit -m"if any changes made write here message "
+git push
