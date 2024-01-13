@@ -51,12 +51,7 @@ public class DownloadService {
 
 		} catch (IOException e) {
 			e.printStackTrace();
-			// return ResponseEntity.status(500).body("Error downloading Excel");
-			/*
-			 * ResponseEntity responseEntity =
-			 * ResponseEntity.status(500).body("Error downloading Excel"); return
-			 * responseEntity;
-			 */
+			
 			return null;
 		}
 	}
