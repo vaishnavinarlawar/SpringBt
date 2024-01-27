@@ -12,6 +12,7 @@ import com.fusiontech.dto.Product;
 import com.fusiontech.service.ProductService;
 
 import jakarta.servlet.http.HttpServletResponse;
+
 @RestController
 public class DownloadController {
 
@@ -20,7 +21,7 @@ public class DownloadController {
 
 	@Autowired
 	private ProductService productservice;
-	
+
 	@GetMapping("/all")
 	public List<Product> getAllProducts(Product product) {
 		System.out.println("Inside Get all Product Details ");

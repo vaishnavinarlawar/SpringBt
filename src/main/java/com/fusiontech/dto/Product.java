@@ -61,10 +61,5 @@ public class Product {
 		this.pd = pd;
 	}
 
-	
-	
-	
 }
-		
-
 	

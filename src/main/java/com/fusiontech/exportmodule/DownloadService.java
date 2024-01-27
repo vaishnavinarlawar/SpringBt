@@ -51,10 +51,9 @@ public class DownloadService {
 
 		} catch (IOException e) {
 			e.printStackTrace();
-			
+
 			return null;
 		}
 	}
 
 }
-
